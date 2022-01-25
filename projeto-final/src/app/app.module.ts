@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CalculadoraModule } from './calculadora';
 import { ConversorModule } from './conversor';
 import { DashboardModule } from './dashboard';
+import { JogoDaVelhaModule } from './jogo-da-velha';
 import { TarefasModule } from './tarefas';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { TarefasModule } from './tarefas';
     CalculadoraModule,
     ConversorModule,
     TarefasModule,
+    JogoDaVelhaModule,
     AppRoutingModule
   ],
   providers: [],
