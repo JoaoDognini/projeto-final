@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalculadoraModule } from './calculadora';
 import { DashboardModule } from './dashboard';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { DashboardModule } from './dashboard';
   imports: [
     BrowserModule,
     DashboardModule,
+    CalculadoraModule,
     AppRoutingModule
   ],
   providers: [],
