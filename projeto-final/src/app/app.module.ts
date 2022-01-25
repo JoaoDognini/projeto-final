@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraModule } from './calculadora';
+import { ConversorModule } from './conversor';
 import { DashboardModule } from './dashboard';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { DashboardModule } from './dashboard';
     BrowserModule,
     DashboardModule,
     CalculadoraModule,
+    ConversorModule,
     AppRoutingModule
   ],
   providers: [],
